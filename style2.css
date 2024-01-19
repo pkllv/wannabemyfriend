@@ -45,19 +45,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
     place-items: center;
 }
 
 .ya {
     height: 400px;
-    grid-area: 1 / 1;
 }
 
 .no {
     height: 10px;
-    justify-content: center;
-    grid-area: 1 / 1;
 }
